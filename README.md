@@ -22,6 +22,8 @@ Level 1 to 2:
 
 Then after this I exit it then again i called the server by "ssh bandit1@bandit.labs.overthewire.org -p 2220" by this I opened my level 1 and the entered the above accessed password.Then here also by the help of ls i found a file "-" here so I opened it by the help of cat ~./- and get the password of next level.
 
+     PASSWORD : bandit2 = UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+
 Level 2 to 3:
 
 Again I exited and recalled the server by above commands just replacing 1 by 2 and then I entered the above accessed password in this then I got a file named as "spaces in this filename" I open this file by "cat spaces\ in\ this\ filename" and I again got the password and then i exited and recalled the server by entering the password.
