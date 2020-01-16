@@ -28,7 +28,7 @@ Level 2 to 3:
 
 Again I exited and recalled the server by above commands just replacing 1 by 2 and then I entered the above accessed password in this then I got a file named as "spaces in this filename" I open this file by "cat spaces\ in\ this\ filename" and I again got the password and then i exited and recalled the server by entering the password.
 
-     PASSWORD : bandit3 = pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+     PASSWORD : bandit2 = UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 
 Level 3 to 4:
 
