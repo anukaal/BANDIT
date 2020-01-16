@@ -39,3 +39,5 @@ In this level after entering the password there is inhere directory in which the
 Level 4 to 5:
 
 Again their is a inhere directory, as in this level we can get the password which is stored in a human readable file so first for getting the ASCII file i write the command "du -h | file ./ "* then bythis we get to know that the human readable file is -file07 so for getting the password I write the command as "cat ./-file07".
+
+     PASSWORD : bandit4 = koReBOKuIDDepwhWk7jZC0RTdopnAYKh
