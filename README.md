@@ -16,7 +16,7 @@ Level 0 to 1:
 
 Then after this it asked me password which was bandit0 then after this I used ls so their I found a readme file by the help of cat I opened it and then I found password for next level(level 1) from here.
 
-     PASSWORD : bandit1 = CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+     PASSWORD : bandit0
 
 Level 1 to 2:
 
@@ -33,6 +33,8 @@ Again I exited and recalled the server by above commands just replacing 1 by 2 a
 Level 3 to 4:
 
 In this level after entering the password there is inhere directory in which there is hidden file so I just used "ls -la" then by this get to know that there is .hidden file so I just opened it by ""cat .hidden" in this way I found the password for the next level.
+
+     PASSWORD : 
 
 Level 4 to 5:
 
