@@ -34,7 +34,7 @@ Level 3 to 4:
 
 In this level after entering the password there is inhere directory in which there is hidden file so I just used "ls -la" then by this get to know that there is .hidden file so I just opened it by ""cat .hidden" in this way I found the password for the next level.
 
-     PASSWORD : 
+     PASSWORD : bandit3 = pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
 Level 4 to 5:
 
