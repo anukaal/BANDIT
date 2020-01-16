@@ -22,7 +22,7 @@ Level 1 to 2:
 
 Then after this I exit it then again i called the server by "ssh bandit1@bandit.labs.overthewire.org -p 2220" by this I opened my level 1 and the entered the above accessed password.Then here also by the help of ls i found a file "-" here so I opened it by the help of cat ~./- and get the password of next level.
 
-     PASSWORD : bandit2 = UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+     PASSWORD : bandit1 = CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 
 Level 2 to 3:
 
