@@ -48,3 +48,7 @@ And by entering the ls I got a directory named as inhere in which I have to find
 So in this way got level 5 and entered into level 6.
 
      PASSWORD : DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+     
+Level 6 to 7:
+
+In this level the password is stored somewhere in the server but we have certain information like it was owned by bandit7 owned by group bandit6 and its size is 33 bytes so by all these informations I write the command "find / -user bandit7 -group bandit6 -size 33c" by this way I found the file and access it by "cat /var/lib/dpkg/info/bandit7.password"
