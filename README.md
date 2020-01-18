@@ -64,3 +64,5 @@ Then I entered "find / -user bandit7 -group bandit6 -size 33c 2>&1 | grep -F -v 
 Level 8 to 9:
 
 Then in next level I get to know that their is file named as data.txt in which only one line is coming once and the code is in that line so for this I used "sort data.txt | uniq -u" so by this I got the key and entered in the next level.
+
+     PASSWORD : UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
