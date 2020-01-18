@@ -70,3 +70,5 @@ Then in next level I get to know that their is file named as data.txt in which o
 Level 9 to 10:
 
 After this in level 9 the password for the next level is stored in the file data.txt in one of the few human-readable strings, beginning with several ‘=’ characters so for this used "strings data.txt | grep ==" so I get the key from here.
+
+     PASSWORD : truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
