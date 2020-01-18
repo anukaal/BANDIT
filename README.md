@@ -41,3 +41,7 @@ Level 4 to 5:
 Again their is a inhere directory, as in this level we can get the password which is stored in a human readable file so first for getting the ASCII file i write the command "du -h | file ./ "* then bythis we get to know that the human readable file is -file07 so for getting the password I write the command as "cat ./-file07".
 
      PASSWORD : bandit4 = koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+     
+Level 5 to 6:
+
+And by entering the ls I got a directory named as inhere in which I have to find a file which is human readable and of size 1033 and it is not executable.I founded this file by "find -readable – size 1033c ! -executable" and then "cat ./-file07".So in this way got level 5 and entered into level 6.
