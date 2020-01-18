@@ -44,6 +44,7 @@ Again their is a inhere directory, as in this level we can get the password whic
      
 Level 5 to 6:
 
-And by entering the ls I got a directory named as inhere in which I have to find a file which is human readable and of size 1033 and it is not executable.I founded this file by "find -readable – size 1033c ! -executable" and then "cat ./-file07".So in this way got level 5 and entered into level 6.
+And by entering the ls I got a directory named as inhere in which I have to find a file which is human readable and of size 1033 and it is not executable. Then I found that how to acess the file which has 1033c using file -size 1033c. Then I got the file name which has the file size 1033c was showing ./maybehere07/.file2 . Then I opened the file and got the password.
+So in this way got level 5 and entered into level 6.
 
      PASSWORD : 
