@@ -66,3 +66,7 @@ Level 8 to 9:
 Then in next level I get to know that their is file named as data.txt in which only one line is coming once and the code is in that line so for this I used "sort data.txt | uniq -u" so by this I got the key and entered in the next level.
 
      PASSWORD : UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+     
+Level 9 to 10:
+
+After this in level 9 the password for the next level is stored in the file data.txt in one of the few human-readable strings, beginning with several ‘=’ characters so for this used "strings data.txt | grep ==" so I get the key from here.
