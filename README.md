@@ -72,3 +72,9 @@ Level 9 to 10:
 After this in level 9 the password for the next level is stored in the file data.txt in one of the few human-readable strings, beginning with several ‘=’ characters so for this used "strings data.txt | grep ==" so I get the key from here.
 
      PASSWORD : truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+     
+Level 10 to 11:
+
+Then I for another level it was written that the password is in a file data.txt, which contains base64 encoded data so i founded the password by "base64 -d data.txt".
+
+In this some commands like grep, uniq , sort etc so u had taken the help of man and some other google searches for knowing what they actually do.
