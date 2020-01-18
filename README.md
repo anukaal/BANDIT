@@ -54,3 +54,9 @@ Level 6 to 7:
 In this level the password is stored somewhere in the server but we have certain information like it was owned by bandit7 owned by group bandit6 and its size is 33 bytes so by all these informations I write the command "find / -user bandit7 -group bandit6 -size 33c" by this way I found the file and access it by "cat /var/lib/dpkg/info/bandit7.password"
 
      PASSWORD : HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+Level 7 to 8:
+
+Then I entered "find / -user bandit7 -group bandit6 -size 33c 2>&1 | grep -F -v Permission" this I founded the key for next level.In next level I get to know that their is data.txt file in which the key is on millionth, so for this I entered the command "cat data.txt | grep millionth" and then I got the key for next level.
+
+     PASSWORD : cvX2JJa4CFALtqS87jk27qwqGhBM9plV
