@@ -60,3 +60,7 @@ Level 7 to 8:
 Then I entered "find / -user bandit7 -group bandit6 -size 33c 2>&1 | grep -F -v Permission" this I founded the key for next level.In next level I get to know that their is data.txt file in which the key is on millionth, so for this I entered the command "cat data.txt | grep millionth" and then I got the key for next level.
 
      PASSWORD : cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+Level 8 to 9:
+
+Then in next level I get to know that their is file named as data.txt in which only one line is coming once and the code is in that line so for this I used "sort data.txt | uniq -u" so by this I got the key and entered in the next level.
