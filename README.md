@@ -77,4 +77,6 @@ Level 10 to 11:
 
 Then I for another level it was written that the password is in a file data.txt, which contains base64 encoded data so i founded the password by "base64 -d data.txt".
 
+     PASSWORD : IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
 In this some commands like grep, uniq , sort etc so u had taken the help of man and some other google searches for knowing what they actually do.
