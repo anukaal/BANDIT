@@ -107,4 +107,11 @@ The password for the next level can be retrieved by submitting the password of t
 After that To submit this password for the next level using echo command follwed by the above password and nc -v localhost 30000
 
      PASSWORD : BfMYroe26WYalil77FoDi9qh59eK5xNr
+     
+Level 15 to 16:
+
+The password for the next level can be retrieved by submitting the password of the current level to port 30001 on localhost using SSL encryption.
+Using echo BfMYroe26WYalil77FoDi9qh59eK5xNr | openssl s_client -quiet -connect localhost:30001 we can find the password of the next level
+
+     PASSWORD : cluFn7wTiGryunymYOu4RcffSxQluehd
 
