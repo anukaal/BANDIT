@@ -101,4 +101,3 @@ Then using ls command a sshkey.private will display. It is saying that u will ge
 Using ssh -i ./sshkey.private bandit14@localhost , it directly jump in into the bandit 14.
 Then for getting password for the next level it is stored in the cat /etc/bandit_pass/bandit14
 
-     PASSWORD : 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
