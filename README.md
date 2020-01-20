@@ -101,3 +101,10 @@ Then using ls command a sshkey.private will display. It is saying that u will ge
 Using ssh -i ./sshkey.private bandit14@localhost , it directly jump in into the bandit 14.
 Then for getting password for the next level it is stored in the cat /etc/bandit_pass/bandit14
 
+Level 14 to 15:
+
+The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost. Using the previous previous question that the password for the next level is stored in the /etc/bandit_pass/bandit14 and I get this # 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e .
+After that To submit this password for the next level using echo command follwed by the above password and nc -v localhost 30000
+
+     PASSWORD : BfMYroe26WYalil77FoDi9qh59eK5xNr
+
