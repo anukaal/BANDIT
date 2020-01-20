@@ -88,5 +88,5 @@ cat data.txt | tr 'n-za-mN-ZA-M' 'a-zA-Z . and I get the password.
      
 Level 12 to 13:
 
-The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed.
+The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. Then it was given that we have to make a directory using mkdir /tmp/anu and copy that data.txt file in the new directory.Then Use xxd command to convert a hex dump back to its original binary form Then using file command file.data it is showing that a gzip compressed data is there is this file. So then First move this compressed data to data.gz and then decompressed it . 
 
