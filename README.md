@@ -93,4 +93,12 @@ by using this method u have do untill the type of the data will not show ASCII c
 After that use cat data then it will show the password.
 
      PASSWORD : 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+     
+Level 13 to 14:
 
+The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level.
+Then using ls command a sshkey.private will display. It is saying that u will get a private ssh key that can be used to login in to the next level.
+Using ssh -i ./sshkey.private bandit14@localhost , it directly jump in into the bandit 14.
+Then for getting password for the next level it is stored in the cat /etc/bandit_pass/bandit14
+
+     PASSWORD : 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
