@@ -81,5 +81,8 @@ Then I for another level it was written that the password is in a file data.txt,
      
 Level 11 to 12:
 
-The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
+The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions . then for solving this level i have to search for ROT13 . then I tried the tr command 
+cat data.txt | tr 'n-za-mN-ZA-M' 'a-zA-Z . and I get the password.
+
+     PASSWORD : 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 
