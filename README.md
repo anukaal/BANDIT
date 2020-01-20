@@ -85,4 +85,8 @@ The password for the next level is stored in the file data.txt, where all lowerc
 cat data.txt | tr 'n-za-mN-ZA-M' 'a-zA-Z . and I get the password.
 
      PASSWORD : 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+     
+Level 12 to 13:
+
+The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed.
 
