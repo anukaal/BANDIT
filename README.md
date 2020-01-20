@@ -92,3 +92,5 @@ The password for the next level is stored in the file data.txt, which is a hexdu
 by using this method u have do untill the type of the data will not show ASCII code . 
 After that use cat data then it will show the password.
 
+     PASSWORD : 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
