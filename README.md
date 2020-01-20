@@ -78,4 +78,8 @@ Level 10 to 11:
 Then I for another level it was written that the password is in a file data.txt, which contains base64 encoded data so i founded the password by "base64 -d data.txt".
 
      PASSWORD : IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+     
+Level 11 to 12:
+
+The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
 
