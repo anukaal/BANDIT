@@ -114,4 +114,13 @@ The password for the next level can be retrieved by submitting the password of t
 Using echo BfMYroe26WYalil77FoDi9qh59eK5xNr | openssl s_client -quiet -connect localhost:30001 we can find the password of the next level
 
      PASSWORD : cluFn7wTiGryunymYOu4RcffSxQluehd
+     
+ Level 16 to 17:
+ 
+The credentials for the next level can be retrieved by submitting the password of the current level to a port on localhost in the range 31000 to 32000. First use this command  "nmap -Pn -A localhost -p 31000-32000" to see who all the ports are listening.
+Then use this command "echo cluFn7wTiGryunymYOu4RcffSxQluehd | openssl s_client -quiet -connect localhost:31790" that it will show Private key after that make a directory and saved in the file .
+Using echo and edit the private key and named it as sshkey.private and after that to change the permissions  use chmod 400 and then when I use this "ssh -i ./sshkey.private bandit17@localhost" to jump into bandit17 it works. 
+
+     NO PASSWORD REQUIRED , ONLY THE SSH KEY.
+ 
 
