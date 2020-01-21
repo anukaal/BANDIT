@@ -130,4 +130,13 @@ Use a diff command to differentiate the two passwords file and it will show the 
 
      PASSWORD : kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
      
+Level 18 to 19:
+
+The password for the next level is stored in a file readme in the homedirectory. While getting nto bandit18 using ssh commands it is showing BYEBYE and automatically it is getting out of the bandit because it was given that in the level 17 that if you have solved this level and see ‘Byebye!’ when trying to log into bandit18, this is related to the next level, bandit19.
+Then I have solved this using "ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme" directly not getting into bandit18.
+
+     PASSWORD : IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+
+     
 
