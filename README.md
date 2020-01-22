@@ -38,7 +38,7 @@ In this level after entering the password there is inhere directory in which the
 
 Level 4 to 5:
 
-Again their is a inhere directory, as in this level we can get the password which is stored in a human readable file so first for getting the ASCII file i write the command "du -h | file ./ "* then bythis we get to know that the human readable file is -file07 so for getting the password I write the command as "cat ./-file07".
+Again their is a inhere directory, as in this level we can get the password which is stored in a human readable file so first for getting the ASCII file i write the command "du -h | file ./ "* then by this we get to know that the human readable file is -file07 so for getting the password I write the command as "cat ./-file07".
 
      PASSWORD : bandit4 = koReBOKuIDDepwhWk7jZC0RTdopnAYKh
      
@@ -75,7 +75,7 @@ After this in level 9 the password for the next level is stored in the file data
      
 Level 10 to 11:
 
-Then I for another level it was written that the password is in a file data.txt, which contains base64 encoded data so i founded the password by "base64 -d data.txt".
+Then I for another level it was written that the password is in a file data.txt, which contains base64 encoded data so i founded the password by **"base64 -d data.txt**".
 
      PASSWORD : IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
      
@@ -88,52 +88,52 @@ The password for the next level is stored in the file data.txt, where all lowerc
      
 Level 12 to 13:
 
-The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. Then it was given that we have to make a directory using **mkdir /tmp/anu and copy that data.txt** file in the new directory.Then Use **xxd command** to convert a hex dump back to its original binary form Then using file command file.data it is showing that a gzip compressed data is there is this file. So then First move this compressed data to data.gz and then decompressed it using **gzip -d data.gz** and after that again see file data then it will showing that the data is in the bzip2 compressed. Then move that data to data.bz2 and then decompressed using **bzip2 -d data.bz2**. 
-by using this method u have do untill the type of the data will not show ASCII code . 
+The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. Then it was given that we have to make a directory using **mkdir /tmp/anu and copy that data.txt** file in the new directory.Then Use **xxd command** to convert a hex dump back to its original binary form Then using file command file.data it is showing that a gzip compressed data is there is this file. So then First move this compressed data to data.gz and then decompressed it using **gzip -d data.gz** and after that again see file data then it will showing that the data is in the bzip2 compressed. Then move that data to **data.bz2** and then decompressed using **bzip2 -d data.bz2**. 
+by using this method u have do untill the type of the data will not show **ASCII code** . 
 After that use cat data then it will show the password.
 
      PASSWORD : 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
      
 Level 13 to 14:
 
-The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level.
+The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. For this level, you don’t get the next password, but you get a private **SSH key**🔐  that can be used to log into the next level.
 Then using ls command a sshkey.private will display. It is saying that u will get a private ssh key that can be used to login in to the next level.
-Using ssh -i ./sshkey.private bandit14@localhost , it directly jump in into the bandit 14.
-Then for getting password for the next level it is stored in the cat /etc/bandit_pass/bandit14
+Using **ssh -i ./sshkey.private bandit14@localhost** , it directly jump in into the bandit 14.
+Then for getting password for the next level it is stored in the **cat /etc/bandit_pass/bandit14** .
 
 Level 14 to 15:
 
-The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost. Using the previous previous question that the password for the next level is stored in the /etc/bandit_pass/bandit14 and I get this # 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e .
-After that To submit this password for the next level using echo command follwed by the above password and nc -v localhost 30000
+The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost. Using the previous previous question that the password for the next level is stored in the **/etc/bandit_pass/bandit14** and I get this # 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e .
+After that To submit this password for the next level using echo command followed by the above password and nc -v localhost 30000
 
      PASSWORD : BfMYroe26WYalil77FoDi9qh59eK5xNr
      
 Level 15 to 16:
 
 The password for the next level can be retrieved by submitting the password of the current level to port 30001 on localhost using SSL encryption.
-Using echo BfMYroe26WYalil77FoDi9qh59eK5xNr | openssl s_client -quiet -connect localhost:30001 we can find the password of the next level
+Using **echo BfMYroe26WYalil77FoDi9qh59eK5xNr | openssl s_client -quiet -connect localhost:30001** we can find the password of the next level
 
      PASSWORD : cluFn7wTiGryunymYOu4RcffSxQluehd
      
  Level 16 to 17:
  
-The credentials for the next level can be retrieved by submitting the password of the current level to a port on localhost in the range 31000 to 32000. First use this command  "nmap -Pn -A localhost -p 31000-32000" to see who all the ports are listening.
-Then use this command "echo cluFn7wTiGryunymYOu4RcffSxQluehd | openssl s_client -quiet -connect localhost:31790" that it will show Private key after that make a directory and saved in the file .
-Using echo and edit the private key and named it as sshkey.private and after that to change the permissions  use chmod 400 and then when I use this "ssh -i ./sshkey.private bandit17@localhost" to jump into bandit17 it works. 
+The credentials for the next level can be retrieved by submitting the password of the current level to a port on localhost in the range 31000 to 32000. First use this command  **"nmap -Pn -A localhost -p 31000-32000"** to see who all the ports are listening and who are just returning the file which you are sending and get back as echo.
+Then use this command **"echo cluFn7wTiGryunymYOu4RcffSxQluehd | openssl s_client -quiet -connect localhost:31790"** that it will show Private key after that make a directory and saved in the file .
+Using echo and edit the private key and named it as **sshkey.private** and after that to change the permissions  use **chmod 400** and then when I use this **"ssh -i ./sshkey.private bandit17@localhost"** to jump into bandit17 it works. 
 
      NO PASSWORD REQUIRED , ONLY THE SSH KEY
      
 Level 17 to 18:
 
-There are 2 files in the homedirectory: passwords.old and passwords.new. The password for the next level is in passwords.new and is the only line that has been changed between passwords.old and passwords.new 
-Use a diff command to differentiate the two passwords file and it will show the difference between.
+There are 2 files in the home directory: passwords.old and passwords.new. The password for the next level is in passwords.new and is the only line that has been changed between passwords.old and passwords.new 
+Use a **diff command** to differentiate the two passwords file and it will show the difference between the passwords of the two files which is passwords.old and passwords.new.
 
      PASSWORD : kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
      
 Level 18 to 19:
 
-The password for the next level is stored in a file readme in the homedirectory. While getting nto bandit18 using ssh commands it is showing BYEBYE and automatically it is getting out of the bandit because it was given that in the level 17 that if you have solved this level and see ‘Byebye!’ when trying to log into bandit18, this is related to the next level, bandit19.
-Then I have solved this using "ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme" directly not getting into bandit18.
+The password for the next level is stored in a file readme in the home directory. While getting nto bandit18 using ssh commands it is showing BYEBYE and automatically it is getting out of the bandit because it was given that in the level 17 that if you have solved this level and see ‘Byebye!’ when trying to log into bandit18, this is related to the next level, bandit19.
+Then I have solved this using **"ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme"** directly not getting into bandit18.
 
      PASSWORD : IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
 
