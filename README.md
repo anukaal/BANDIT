@@ -143,6 +143,15 @@ To gain access to the next level, you should use the setuid binary in the homedi
 While Now I am in level 19 and by seeing what are in the this level , it only shows **bandit20-do** . In this level it has already said that the password for this level can be found in the usual place **/etc/bandit_pass** . So I have use this command **./bandit20-do cat /etc/bandit_pass/bandit20** and I got password for the next level.
 
      PASSWORD : GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+     
+Level 20 to 21:
+
+There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. So first echo the previous password and followed by the nc command with the localhost and the port number.
+using this **echo "GbKksEFF4yrVs6il55v6gwY5aVje5f0j" | nc -l localhost -p 12345 &** and then using this **./suconnect 12345** 
+Then it will read the previous passwords and give the next level passwords.
+
+     PASSWORD : gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
 
      
 
