@@ -158,6 +158,19 @@ A program is running automatically at regular intervals from cron, the time-base
 **cat /usr/bin/cronjob_bandit22.sh** . Then it shows **/tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv**. After that I use this using cat command and after the password is here. 
 
      PASSWORD : Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+     
+Level 22 to 23:
+
+
+A program is running automatically at regular intervals from cron, the time-based job scheduler. Then It says that look in **/etc/cron.d/** for the configuration.Then go in this directory  and type ls . U will get a file of cronjob. So I have used **cat cronjob_bandit22** then it is showing that how to access the file that which command is being executed at the back.
+**cat /usr/bin/cronjob_bandit22.sh** . Then I have to read the sh file and understood that what is going in the sh file.
+
+1. whoami = bandit22
+2. mytarget = echo I am user bandit23 | md5sum | cut -d ' ' -f 1 And then I get this password as                       8ca319486bfbbc3663ea0fbe81326349
+3. cat /tmp/8ca319486bfbbc3663ea0fbe81326349 and then the final password displays.
+
+     PASSWORD : jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
 
 
      
