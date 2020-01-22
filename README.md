@@ -136,6 +136,10 @@ The password for the next level is stored in a file readme in the home directory
 Then I have solved this using **"ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme"** directly not getting into bandit18.
 
      PASSWORD : IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+     
+Level 19 to 20:
+
+To gain access to the next level, you should use the setuid binary in the homedirectory. setuid is (short for "set user ID" and "set group ID")
 
 
      
