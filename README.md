@@ -150,7 +150,14 @@ There is a setuid binary in the homedirectory that does the following: it makes 
 using this **echo "GbKksEFF4yrVs6il55v6gwY5aVje5f0j" | nc -l localhost -p 12345 &** and then using this **./suconnect 12345** 
 Then it will read the previous passwords and give the next level passwords.
 
-     PASSWORD : gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+    PASSWORD : gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+     
+Level 21 to 22:
+
+A program is running automatically at regular intervals from cron, the time-based job scheduler. Then It says that look in **/etc/cron.d/** for the configuration.Then go in this directory  and type ls . U will get a file of cronjob. So I have used **cat cronjob_bandit22** then it is showing that how to access the file that which command is being executed at the back.
+**cat /usr/bin/cronjob_bandit22.sh** . Then it shows **/tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv**. After that I use this using cat command and after the password is here. 
+
+     PASSWORD : Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
 
 
      
