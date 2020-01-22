@@ -140,7 +140,9 @@ Then I have solved this using **"ssh bandit18@bandit.labs.overthewire.org -p 222
 Level 19 to 20:
 
 To gain access to the next level, you should use the setuid binary in the homedirectory. setuid is (short for "set user ID" and "set group ID")
+While Now I am in level 19 and by seeing what are in the this level , it only shows **bandit20-do** . In this level it has already said that the password for this level can be found in the usual place **/etc/bandit_pass** . So I have use this command **./bandit20-do cat /etc/bandit_pass/bandit20** and I got password for the next level.
 
+     PASSWORD : GbKksEFF4yrVs6il55v6gwY5aVje5f0j
 
      
 
