@@ -82,13 +82,13 @@ Then I for another level it was written that the password is in a file data.txt,
 Level 11 to 12:
 
 The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions . then for solving this level i have to search for ROT13 . then I tried the tr command 
-cat data.txt | tr 'n-za-mN-ZA-M' 'a-zA-Z . and I get the password.
+**cat data.txt | tr 'n-za-mN-ZA-M' 'a-zA-Z'** . and I get the password.
 
      PASSWORD : 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
      
 Level 12 to 13:
 
-The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. Then it was given that we have to make a directory using mkdir /tmp/anu and copy that data.txt file in the new directory.Then Use xxd command to convert a hex dump back to its original binary form Then using file command file.data it is showing that a gzip compressed data is there is this file. So then First move this compressed data to data.gz and then decompressed it using gzip -d data.gz and after that again see file data then it will showing that the data is in the bzip2 compressed. Then move that data to data.bz2 and then decompressed using bzip2 -d data.bz2. 
+The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. Then it was given that we have to make a directory using **mkdir /tmp/anu and copy that data.txt** file in the new directory.Then Use **xxd command** to convert a hex dump back to its original binary form Then using file command file.data it is showing that a gzip compressed data is there is this file. So then First move this compressed data to data.gz and then decompressed it using **gzip -d data.gz** and after that again see file data then it will showing that the data is in the bzip2 compressed. Then move that data to data.bz2 and then decompressed using **bzip2 -d data.bz2**. 
 by using this method u have do untill the type of the data will not show ASCII code . 
 After that use cat data then it will show the password.
 
