@@ -169,7 +169,8 @@ A program is running automatically at regular intervals from cron, the time-base
 2. mytarget = echo I am user bandit23 | md5sum | cut -d ' ' -f 1 And then I get this password as                       8ca319486bfbbc3663ea0fbe81326349
 3. cat /tmp/8ca319486bfbbc3663ea0fbe81326349 and then the final password displays.
 
-     PASSWORD : jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+     PASSWORD  :  jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
 
 
 
