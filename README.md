@@ -173,6 +173,25 @@ A program is running automatically at regular intervals from cron, the time-base
      PASSWORD  :  jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
 
 
+Level 23 to 24:
+
+A program is running automatically at regular intervals from cron, the time-based job scheduler. Then It says that look in **/etc/cron.d/** for the configuration.Then go in this directory  and type ls . U will get a file of cronjob. So I have used **cat cronjob_bandit24** then it is showing that how to access the file that which command is being executed at the back.
+**cat /usr/bin/cronjob_bandit24.sh**. Then I have read the sh file and have to understood that what is going in the sh file.
+
+1. First make a directory in the previous directory  which is **/etc/cron.d** and the directory Which I have made is **mkdir /tmp/crypti/** and after moved it into that directory.
+2. Now using the vim editor i have edited the sh file and renamed as new.sh.
+in the sh file i have write is ;
+     **#!/bin/bash
+     cat /etc/bandit_pass/bandit24 >> /tmp/crypti/pass**
+3. change the permission to read , write , execute ushing **chmod 777 new.sh**
+4. Now I have copied this sh file ie. new.sh in **/var/spool/bandit24**.
+5. Now I have use this command **cat /var/spool/bandit24/new.sh** and after that use a ls command then it is showing a new.sh and pass file.
+
+Then finally Using cat pass I got the password.
+
+     PASSWORD : UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+
 
      
 
