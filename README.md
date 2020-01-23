@@ -189,7 +189,16 @@ in the sh file i have write is ;
 Then finally Using cat pass I got the password.
 
      PASSWORD : UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+     
+     
+Level 24 to 25:
 
+A daemon is listening on port 30002 and will give you the password for bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode. 
+First create a directory **mkdir /tmp/crypti/** and use the netcat command to listen the localhost 30002 as **nc localhost 30002**.
+And then it is showing that I have to give the passowrd for user bandit24 and a secret pincode on a single line.
+I didn't understand too much I just googled it and i had got a python file in which it has given code to detect the passwords. so i copied and run this python file  as you want to see this file go to bandit repository  it will show there.
+
+     PASSWORD : uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
 
 
      
