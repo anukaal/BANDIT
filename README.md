@@ -203,6 +203,12 @@ And then it is showing that I have to give the passowrd for user bandit24 and a 
 I didn't understand too much I just googled it and i had got a python file in which it has given code to detect the passwords. so i copied and run this python file  as you want to see this file go to bandit repository  it will show there.
 
      PASSWORD : uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+     
+     
+Level 25 to 26:
+
+Logging in to bandit26 from bandit25 should be fairly easy… The shell for user bandit26 is not /bin/bash, but something else.
+
 
 
      
