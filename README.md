@@ -204,10 +204,7 @@ I didn't understand too much I just googled it and i had got a python file in wh
 
      PASSWORD : uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
      
-     
-Level 25 to 26:
 
-Logging in to bandit26 from bandit25 should be fairly easy… The shell for user bandit26 is not /bin/bash, but something else.
 
 
 
